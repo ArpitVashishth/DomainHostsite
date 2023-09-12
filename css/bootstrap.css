@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+
+}
+
+.container2401[data-b-101] {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+
+.card[data-b-103] {
+    border: 1px solid #d5dfff;
+    border-radius: 2rem !important;
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    padding: 31px 23px;
+    margin-top: 1rem;
+    align-items: center;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, .15);
+    margin-bottom: 40px;
+    /* transition: transform  0.3s;  */
+}
+
+.card[data-b-103]:hover {
+    transform: scale(1.02);
+
+}
+
+.row[data-b-102] {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1000px)and (device-width: 871px) {
+    .card[data-b-103] {
+        box-shadow: none;
+        max-width: 950px;
+        width: 900px;
+    }
+
+    .row[data-b-102] {}
+
+    section.wrapper__section {
+
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .container2401[data-b-101] {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-bottom: 5rem;
+
+    }
+}
+
+@media screen and (max-width: 760px)and (min-width: 400px) {
+
+    .container2401[data-b-101]{
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-bottom: 5rem;
+        
+        
+    }
+    .card[data-b-103] {
+        margin: 0;
+        max-width: 100%;
+        width: 95%;
+        margin-bottom: 3rem;
+        
+    }
+}
+
+@media screen and (max-width: 500px)and (device-width: 375px){
+    .container2401[data-b-101]{
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 2rem;
+        padding-right: 0rem;
+        margin-bottom: 5rem;
+    }
+    .card[data-b-103] {
+        margin: 0;
+        max-width: 100%;
+        width: 95%;
+        margin-bottom: 3rem;
+        
+    }
+
+    svg.homepagesvg {
+        width: 415px;
+    }
+
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+svg #domainindia {}
+
+
+
+#boythink {
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+
+#boywindow {
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+
+
+#girlWindow {
+
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+
+/* #XMLID_5163_{
+    border: 1px solid black;
+} */
+
+#shoesboyhead {
+    animation: head 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+#thinkboyhead {
+    animation: head 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+#girlhead {
+    animation: head 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes windowscale {
+    from {
+        translate: 0 1rem;
+        scale: .5;
+
+    }
+
+    to {
+        translate: 0 -1rem;
+        scale: .8;
+
+    }
+
+}
+
+@keyframes head {
+    from {
+        rotate: 10deg;
+
+    }
+
+    to {
+        rotate: -10deg;
+
+    }
+}
