@@ -247,7 +247,7 @@ span.h-carousel-card-wrapper__gradient[data-v-e821264a] {
 .h-pricing-card__container[data-v-361e5f6b] {
     align-items: center;
     /* background-color: rgb(213, 223, 255); */
-    background-image: url(./images/pattern3.png);
+    background-image: url(/images/pattern3.png);
     border: 1px solid #d5dfff;
     border-radius: 20px;
     display: flex;

@@ -35,9 +35,7 @@ svg #domainindia {}
 
 }
 
-/* #XMLID_5163_{
-    border: 1px solid black;
-} */
+
 
 #shoesboyhead {
     animation: head 1s ease-in-out infinite alternate;
@@ -71,6 +69,20 @@ svg #domainindia {}
     }
 
 }
+@keyframes windowscalrs{
+    from {
+        translate: 0 1rem;
+        scale: .8;
+
+    }
+
+    to {
+        translate: 0 -1rem;
+        scale: .10;
+
+    }
+
+}
 
 @keyframes head {
     from {
@@ -81,5 +93,221 @@ svg #domainindia {}
     to {
         rotate: -10deg;
 
+    }
+}
+
+#toplalptop{
+    animation: windowscalrs 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+#midlaptop{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+#lastlaptop{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+#music{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+#menhead{
+    animation: head 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+#mobilesmall{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+#bluecloudwww{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+#server{
+    animation: bumerang-s 3s ease-in infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+#girlhead{
+    animation: head 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+#Girl{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+
+}
+#boy{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+
+}
+#boyhead{
+    animation: head 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+#LLL1{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+
+}
+#laptop{
+    animation: windowscalrs 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+
+}
+#LLL2{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+#musicLLL3{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+#server123{
+    animation: bumerang-s 3s ease-in infinite;
+    transform-origin: bottom;
+    transform-box: fill-bo
+
+}
+#cloudserver{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+
+#ggrhead{
+    animation: head 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+
+#girl{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+#bigmsg{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+#yellowmsg{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+
+}
+#yellowbigmsg{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+
+}
+#lovemsg{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+
+}
+#bigsettings{
+    animation: windowscalrs 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+
+}
+#settings{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+#mug{
+    animation: bumerang-prev 3s ease-in infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+#leaf{
+    animation: head 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+
+#flowerpot{
+    animation: bumerang-s 3s ease-in infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+#clock{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box
+
+}
+#hours{
+    animation: windowscale 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box
+
+}
+
+
+
+@keyframes bumerang-s {
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(20px)
+    }
+}
+
+@keyframes bumerang-prev {
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(-20px)
     }
 }
